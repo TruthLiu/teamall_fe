@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/head-common.html')  %>
+        <title><%= htmlWebpackPlugin.options.title%> - Teamall电商平台</title>
+    </head>
+    <body>
+        <%= require('html-loader!./layout/nav.html')  %>
+        <%= require('html-loader!./layout/header.html')  %>
+        <div class="crumb">
+            <div class="w">
+                <div class="crumb-con">
+                    <a class="link" href="./index.html">TeaMall</a>
+                    <span>></span>
+                    <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+                </div>
+            </div>
+        </div>
+        <div class="page-wrap w">
+            <div class="panel">
+                <h1 class="panel-title">关于我们</h1>
+                <div class="panel-body">
+                    <h1 style="color: #e80012" align="center">Welcome to yunchuTea Mall</h1>
+                    <br>
+                    <h3 style="color: #a93931" align="center">昀初茶叶专注于你的身体健康，为你提供力所能及的帮助，如果您有任何问题可以致电我们！</h3>
+                    <br>
+                    <h4 style="color: #a93931" align="center">感谢您的支持与厚爱．</h4>
+                </div>
+            </div>
+        </div>
+        <%= require('html-loader!./layout/footer.html')  %>
+    </body>
+</html>

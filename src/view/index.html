@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <%= require('html-loader!./layout/head-common.html')  %>
+        <title><%= htmlWebpackPlugin.options.title%> - Teamall电商平台</title>
+    </head>
+    <body>
+        <%= require('html-loader!./layout/nav.html')  %>
+        <%= require('html-loader!./layout/header.html')  %>
+        <div class="w">
+            <ul class="keywords-list">
+                <li class="keywords-item">
+                    <a class="link" target="_blank" href="./list.html?keyword=乌龙茶">乌龙茶</a>
+                </li>
+                <li class="keywords-item">
+                    <a class="link" target="_blank" href="./list.html?keyword=红茶">红茶</a>
+                </li>
+                <li class="keywords-item">
+                    <a class="link" target="_blank" href="./list.html?keyword=绿茶">绿茶</a>
+                </li>
+                <li class="keywords-item">
+                    <a class="link" target="_blank" href="./list.html?keyword=黑茶">黑茶</a>
+                <li class="keywords-item">
+                    <a class="link" target="_blank" href="./list.html?keyword=白茶">白茶</a>
+                </li>
+                <li class="keywords-item">
+                    <a class="link" target="_blank" href="./list.html?keyword=花茶">花茶</a>                </li>
+                </li>
+            </ul>
+            <div class="banner-con">
+                <div class="loading"></div>
+            </div>
+        </div>
+        <div class="w">
+            <div class="floor-wrap">
+                <h1 class="floor-title">F1 乌龙茶</h1>
+                <ul class="floor-list">
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=18">
+                            <span class="floor-text">武夷岩茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor1-1.jpg') %>" alt="武夷岩茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=19">
+                            <span class="floor-text">广东单枞</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor1-2.jpg') %>" alt="广东单枞" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=100107">
+                            <span class="floor-text">安溪铁观音</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor1-3.jpg') %>" alt="安溪铁观音" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=100108">
+                            <span class="floor-text">台湾高山茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor1-4.jpg') %>" alt="台湾高山茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=100109">
+                            <span class="floor-text">其他乌龙茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor1-5.jpg') %>" alt="其他乌龙茶" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="floor-wrap">
+                <h1 class="floor-title">F2 红茶</h1>
+                <ul class="floor-list">
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=110105">
+                            <span class="floor-text">金骏眉</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor2-1.jpg') %>" alt="金骏眉" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=110106">
+                            <span class="floor-text">正山小种</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor2-2.jpg') %>" alt="正山小种" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=110107">
+                            <span class="floor-text">云南滇红</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor2-3.jpg') %>" alt="云南滇红" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=110108">
+                            <span class="floor-text">凌云白毫红茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor2-4.jpg') %>" alt="凌云白毫红茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=110109">
+                            <span class="floor-text">英德红茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor2-5.jpg') %>" alt="英德红茶" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="floor-wrap">
+                <h1 class="floor-title">F3 绿茶</h1>
+                <ul class="floor-list">
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=120105">
+                            <span class="floor-text">龙井</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor3-1.jpg') %>" alt="龙井" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=120106">
+                            <span class="floor-text">碧螺春</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor3-2.jpg') %>" alt="碧螺春" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=120107">
+                            <span class="floor-text">黄山毛峰</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor3-3.jpg') %>" alt="黄山毛峰" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=120108">
+                            <span class="floor-text">六安瓜片</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor3-4.jpg') %>" alt="六安瓜片" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=120109">
+                            <span class="floor-text">太平猴魁</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor3-5.jpg') %>" alt="太平猴魁" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="floor-wrap">
+                <h1 class="floor-title">F4 黑茶</h1>
+                <ul class="floor-list">
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=130105">
+                            <span class="floor-text">普洱茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor4-1.jpg') %>" alt="普洱茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=130106">
+                            <span class="floor-text">安化黑茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor4-2.jpg') %>" alt="安化黑茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=130107">
+                            <span class="floor-text">柑普茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor4-3.jpg') %>" alt="柑普茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=130108">
+                            <span class="floor-text">茯茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor4-4.jpg') %>" alt="茯茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=130109">
+                            <span class="floor-text">六堡茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor4-5.jpg') %>" alt="六堡茶" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="floor-wrap">
+                <h1 class="floor-title">F5 白茶</h1>
+                <ul class="floor-list">
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=140105">
+                            <span class="floor-text">福鼎白茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor5-1.jpg') %>" alt="福鼎白茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=140106">
+                            <span class="floor-text">西湖龙井</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor5-2.jpg') %>" alt="西湖龙井" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=140107">
+                            <span class="floor-text">贡眉</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor5-3.jpg') %>" alt="贡眉" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=140108">
+                            <span class="floor-text">安吉白茶</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor5-4.jpg') %>" alt="安吉白茶" />
+                        </a>
+                    </li>
+                    <li class="floor-item">
+                        <a href="./detail.html?productId=140109">
+                            <span class="floor-text">白毫银针</span>
+                            <img class="floor-img" src="<%= require('../image/floor/floor5-5.jpg') %>" alt="白毫银针" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <%= require('html-loader!./layout/footer.html')  %>
+    </body>
+</html>
